@@ -13,7 +13,7 @@
 }
 .to-do {
   width: 100%;
-  max-width: 540px;
+  max-width: 450px;
   background: rgba(146, 145, 145, 0.8);
   backdrop-filter: blur(1px);
   margin: 100px auto 20px;
@@ -44,15 +44,19 @@ input {
   font-weight: 14px;
 }
 @media only screen and (max-width: 500px) {
+    .to-do{
+        padding: 10px;
+    }
     .row{
-     width: 100%;
-     padding-left: 5px;
-     
+     width: 250px;
+    }
+    input{
+        padding: 5px;
     }
     button{
-        padding: 16px 20px;
+        width: 150px;
+        text-align: center;
     }
-
   }
 button {
   border: none;
